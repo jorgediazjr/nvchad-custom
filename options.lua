@@ -4,6 +4,7 @@ opt.shiftwidth = 4
 opt.tabstop = 4
 opt.softtabstop = 4
 
+--[[
 opt.ignorecase = true
 opt.smartcase = true
 
@@ -19,6 +20,7 @@ opt.scrolloff = 11
 
 opt.iskeyword= "@,48-57,192-255"
 
+opt.foldmethod = "indent"
 opt.nofoldenable = true
 
 opt.nowrap = true
@@ -38,4 +40,5 @@ opt.ignorecase = true
 opt.incsearch = true
 opt.hlsearch = true
 
-opt.number = "relativenumber"
+opt.number = ("relativenumber")
+--]]
