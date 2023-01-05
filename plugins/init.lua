@@ -13,6 +13,8 @@ return {
   -- Install plugin
   ["Pocco81/TrueZen.nvim"] = {},
 
+  ["bakpakin/janet.vim"] = {},
+
   -- Override plugin definition options
   ["goolord/alpha-nvim"] = {
     disable = false,
