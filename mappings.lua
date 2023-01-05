@@ -23,6 +23,8 @@ M.general = {
     ["<tab>"] = { ":tabnext<CR>", "go to next tab", opts = { nowait = true } },
     ["<leader><TAB>"] = { ":tabnext<CR>", "go to next tab", opts = { nowait = true } },
     ["<leader><Left><TAB>"] = { ":tabprevious<CR>", "go to previous tab", opts = { nowait = true } },
+    ["<leader>ee<CR>"] = { ":ConjureEvalCurrentForm<CR>", "eval current line", opts = { nowait = true } },
+    ["<leader>er<CR>"] = { ":ConjureEvalRootForm<CR>", "eval current root form", opts = { nowait = true } },
   },
   i = {
     ["jk"] = { "<ESC>", "escape insert mode" , opts = { nowait = true }},
@@ -33,6 +35,9 @@ M.general = {
     ["≈"] = { "<ESC>$a", "go to end of line", opts = { nowait = true } },
     ["<C-n>"] = { "<C-x><C-o>", "not sure", opts = { nowait = true } },
   },
+  v = {
+    ["<leader>E<CR>"] = { ":ConjureEvalVisual<CR>", "eval current visual highlighted", opts = { nowait = true } },
+  }
 }
 
 return M
