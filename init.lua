@@ -16,16 +16,18 @@ g.maplocalleader = ","
 opt.scrolloff = 11
 
 opt.showcmd = true
-opt.list = true
-
-opt.expandtab = true
-opt.shiftwidth=4
-opt.softtabstop=4
 
 opt.laststatus=2
 
 opt.ignorecase = true
 opt.incsearch = true
 opt.hlsearch = true
+
+opt.autoindent=true
+opt.smartindent=true
+
+opt.expandtab=true
+opt.shiftwidth=4
+opt.softtabstop=4
 
 opt.relativenumber=true
