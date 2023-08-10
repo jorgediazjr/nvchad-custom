@@ -10,6 +10,7 @@ M.general = {
 -- more keybinds!
 M.abc = {
   n = {
+    [";"] = { ":", "enter command mode", opts = { nowait = true } },
     ["<C-J>"] = { "<C-W><C-J>", "move down in pane", opts = { nowait = true }},
     ["<C-K>"] = { "<C-W><C-K>", "move up in pane", opts = { nowait = true }},
     ["<C-L>"] = { "<C-W><C-L>", "move right in pane", opts = { nowait = true }},
