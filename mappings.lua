@@ -27,6 +27,7 @@ M.abc = {
     ["<Left><tab>"] = { ":tabprevious<CR>", "go to previous tab", opts = { nowait = true }},
     ["<tab>"] = { ":tabnext<CR>", "go to next tab", opts = { nowait = true }},
     ["<expr> e"] = { "((getcmdtype() is# ':' && getcmdline() is# 'e')?('tabe'):('e'))", "expand command for tabe", opts = { nowait = true }},
+    ["<leader>gg"] = { "<ESC>:LazyGit<CR>", "open lazygit floating window", opts = { nowait = true }},
   },
   i = {
     ["jk"] = { "<ESC>", "enter normal mode", opts = { nowait = true }},
