@@ -26,7 +26,7 @@ M.abc = {
     ["<leader>b"] = { "<ESC>:vsp blank<CR>", "vertical split a blank window pane", opts = { nowait = true }},
     ["<Left><tab>"] = { ":tabprevious<CR>", "go to previous tab", opts = { nowait = true }},
     ["<tab>"] = { ":tabnext<CR>", "go to next tab", opts = { nowait = true }},
-    ["<expr> e"] = { "((getcmdtype() is# ':' && getcmdline() is# 'e')?('tabe'):('e'))", "expand command for tabe", opts = { nowait = true }},
+    ["e<space>"] = { ":tabedit ", "Write :tabe command", opts = { nowait = true }},
     ["<leader>gg"] = { "<ESC>:LazyGit<CR>", "open lazygit floating window", opts = { nowait = true }},
   },
   i = {

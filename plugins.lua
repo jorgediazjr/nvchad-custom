@@ -157,6 +157,11 @@ local plugins = {
         },
         lazy = false,
     },
+
+    {
+        "nvim-telescope/telescope.nvim",
+        lazy = false,
+    },
 }
 
 return plugins
